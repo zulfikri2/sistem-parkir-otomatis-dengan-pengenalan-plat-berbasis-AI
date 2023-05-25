@@ -1,0 +1,104 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+     <!-- Required meta tags -->
+     <meta charset="utf-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+     <link rel="shortcut icon"
+          href="https://st4.depositphotos.com/22951204/24667/v/450/depositphotos_246671020-stock-illustration-eagle-logo-designs-simple.jpg" />
+
+     <link href="https://fonts.googleapis.com/css?family=Roboto:300,400&display=swap" rel="stylesheet">
+
+     <link rel="stylesheet" type="text/css" href="{{url_for('static',filename='auth/fonts/icomoon/style.css')}}">
+
+     <link rel="stylesheet" href="{{url_for('static',filename='auth/css/owl.carousel.min.css')}}">
+
+     <!-- Bootstrap CSS -->
+     <link rel="stylesheet" href="{{url_for('static',filename='auth/css/bootstrap.min.css')}}">
+
+     <!-- Style -->
+     <link rel="stylesheet" href="{{url_for('static',filename='auth/css/style.css')}}">
+
+     <title>LOGIN</title>
+
+     <script>
+          $(window).load(function () {
+               $("#preloader").delay(3000).fadeOut("slow");
+          });
+     </script>
+     <script type="text/javascript">
+          function myFunction() {
+               var x = document.getElementById("inputPassword");
+               if (x.type === "password") {
+                    x.type = "text";
+               } else {
+                    x.type = "password";
+               }
+          }
+     </script>
+</head>
+
+<body>
+     <div class="half" style="background-color: #2ef806!important">
+
+          <div class="contents order-2 order-md-1">
+
+               <div class="container"><br /><br />
+                    <div class="row align-items-center justify-content-center"
+                         style="height: 200px;!important;margin-bottom: 0px!important;">
+                         <div class="col-md-6">
+                              <div class="form-block" style="border-radius: 15px;">
+                                   <form action="{{ url_for('login') }}" method="POST"
+                                        class="login100-form validate-form">
+                                        <div class="text-center mb-5">
+                                             <h3>Login KE <strong>SISTEM PARKIR</strong></h3>
+                                             <p style="color: red;">{{ msg }}</p>
+                                        </div>
+
+                                        <div class="form-group first">
+                                             <label for="username">Username</label>
+                                             <input type="text" name="username" class="form-control"
+                                                  placeholder="Masukan Username.." id="username" required>
+                                        </div>
+                                        <div class="form-group last mb-3">
+                                             <label for="password">Password</label>
+                                             <input type="password" name="password" class="form-control"
+                                                  placeholder="Masukan Password.." id="Password"
+                                                  for="inputPassword" required>
+                                        </div>
+
+                                        <div class="d-sm-flex mb-5 align-items-center">
+                                             <label class="control control--checkbox mb-3 mb-sm-0"><span class="caption"
+                                                       for="showpw">Show Password</span>
+                                                  <input type="checkbox" class="form-check-input" id="showpw"
+                                                       onclick="myFunction()" />
+                                                  <div class="control__indicator"></div>
+                                             </label>
+
+                                        </div>
+
+                                        <input type="submit" value="Login"
+                                             style="background: #1269DB!important;border-color: #1269DB!important;"
+                                             class="btn btn-block btn-primary">
+                                   </form>
+                              </div>
+                              <div class="text-center p-t-10"><br />
+                                   <a class="txt2" href="" style="text-decoration: none;">Copyright 2022 &copy;
+                                        Capstone Project
+                                   </a>
+                              </div>
+                         </div>
+
+                    </div>
+               </div>
+          </div>
+     </div>
+     <script src="assets/auth/js/jquery-3.3.1.min.js"></script>
+     <script src="assets/auth/js/popper.min.js"></script>
+     <script src="assets/auth/js/bootstrap.min.js"></script>
+     <script src="assets/auth/js/main.js"></script>
+</body>
+
+</html>

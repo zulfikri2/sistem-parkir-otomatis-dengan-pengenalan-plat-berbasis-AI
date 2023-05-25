@@ -1,0 +1,26 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+flask = "*"
+flask-restx = "*"
+mysql = "*"
+pymysql = "*"
+pytesseract = "*"
+datetime = "*"
+flask-marshmallow = "*"
+flask-sqlalchemy = "*"
+werkzeug = "*"
+marshmallow-sqlalchemy = "*"
+opencv-contrib-python = "*"
+flask-migrate = "*"
+keras = "*"
+tensorflow = "*"
+nltk = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.9"

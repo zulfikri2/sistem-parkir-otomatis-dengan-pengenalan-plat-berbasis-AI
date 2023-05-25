@@ -1,0 +1,136 @@
+{"intents": [
+    {"tag": "sapa",
+     "patterns": ["Hai", "Hallo", "Hey","Hello"],
+     "responses": ["Hallo, ada yang bisa kami bantu?", "Hai, Ada yang ingin anda tanyakan?"],
+     "context": [""]
+    },
+
+    {"tag": "pagi",
+        "patterns": ["Selamat pagi", "Pagi", "Halo selamat pagi"],
+        "responses": ["Selamat pagi, ada yang bisa kami bantu?", "Selamat pagi, Ada yang ingin anda tanyakan?"],
+        "context": [""]
+       },
+       
+    {"tag": "siang",
+        "patterns": ["Selamat siang", "sore", "Halo selamat siang"],
+        "responses": ["Selamat siang, ada yang bisa kami bantu?", "Selamat siang, Ada yang ingin anda tanyakan?"],
+        "context": [""]
+       },
+
+    {"tag": "sore",
+        "patterns": ["Selamat sore", "sore", "Halo selamat sore"],
+        "responses": ["Selamat sore, ada yang bisa kami bantu?", "Selamat sore, Ada yang ingin anda tanyakan?"],
+        "context": [""]
+       },
+
+    {"tag": "malam",
+        "patterns": ["Selamat malam", "Malam", "Halo selamat malam"],
+        "responses": ["Selamat malam, ada yang bisa kami bantu?", "Selamat malam, Ada yang ingin anda tanyakan?"],
+        "context": [""]
+       },
+
+    {"tag": "terimakasih",
+     "patterns": ["Terima kasih", "Makasih", "terimakasih"],
+     "responses": ["Senang bisa membantu anda", "sama sama"],
+     "context": [""]
+    },
+
+
+    {"tag": "tanpajawaban",
+     "patterns": [""],
+     "responses": ["Maaf, tidak bisa memahamimu", "Maaf, tidak dapat mengerti apa yang anda inginkan", "Maaf, bisa ulangi pertanyaanya"],
+     "context": [""]
+    },
+
+
+    {"tag": "riwayat_masuk",
+     "patterns": ["Bagaimana mengetahui riwayat masuk?", "Bagaimana mengetahui riwayat masuk kendaraan?", "Bagaimana mengetahui riwayat masuk parkir?" ],
+     "responses": ["riwayat masuk bisa dicek melalui Mobile", "riwayat masuk bisa dicek melalui aplikasi di mobile"],
+     "context": [""]
+    },
+
+    
+    {"tag": "options",
+     "patterns": ["Kamu bisa apa saja?", "Saya mau tanya dong", "saya bisa tanya tentang apa saja?"],
+     "responses": ["Silahkan bertanya kepada saya, saya bisa menjelaskan kepada anda mengenai aplikasi ini", "Saya akan membantu anda dalam menggunakan aplikasi ini"],
+     "context": [""]
+    },
+
+
+    {"tag": "tanyaaplikasi",
+     "patterns": ["Ini aplikasi untuk apa?", "Untuk apa aplikasi ini dibikin?", "Bisakah anda jelaskan kepada saya mengenai aplikasi ini?", "Apa itu e-parkir?"],
+     "responses": ["Aplikasi E-Parkir merupakan aplikasi untuk pengecekan waktu masuk mahasiswa Politeknik Harapan Bersama"],
+     "context": [""]
+    },
+
+
+    {"tag": "error",
+     "patterns": ["bagaimana apabila kamera tidak bisa memindai?", "plat nomor tidak terdeteksi", "plat tidak terbaca" ],
+     "responses": ["mengatur posisi kendaraan, agar plate bisa terbaca oleh kamera", "Silahkan hubungi operator yang bertugas"],
+     "context": [""]
+    },
+
+
+    {"tag": "carapenggunaan",
+     "patterns": ["Bagaimana cara menggunakan aplikasi sistem parkir?","bagaimana cara penggunaan aplikasi?","saya belum tau cara penggunaan aplikasi" ],
+     "responses": ["Aplikasi ini dapat mendeteksi secara otomatis plat nomor, tanggal dan waktu masuk ketika anda masuk ke Politeknik Harapan Bersama, data tersebut akan di tampilkan pada histori masuk di aplikasi mobile"],
+     "context": [""]
+    },
+
+
+    {"tag": "fitur",
+     "patterns": ["Apa saja fitur yang terdapat pada aplikasi ini?","fiturnya apa aja nih?","ada berapa fitur pada aplikasi ini?" ],
+     "responses": ["Aplikasi sistem parkir memiliki beberapa fitur yaitu Untuk melihat riwayat keluar masuknya kendaraan, Chatbot yang anda gunakan saat ini"],
+     "context": [""]
+    },
+
+
+    {"tag": "poltek",
+     "patterns": ["Dimana alamat poltek?","Dimana alamat Politeknik Harapan Bersama","Alamat Politeknik Harapan Bersama" ],
+     "responses": ["Jl. Mataram No.9, Kel. pesurungan lor, Kel. Pesurungan Lor, Pesurungan Lor, Kec. Margadana, Kota Tegal, Jawa Tengah 52147"],
+     "context": [""]
+    },
+
+    {"tag": "motor",
+     "patterns": ["Dimana tempat parkir untuk motor?","Ada berapa tempat parkir motor?","tempat parkir motor"],
+     "responses": ["Tempat parkir motor pada politeknik Harapan Bersama memiliki 4 parkir motor. terletak pada timur asmara , sebelah barat dan timur gedung C, dan sebelah selatan gedung D"],
+     "context": [""]
+    },
+    
+    {"tag": "mobil",
+     "patterns": ["Dimana tempat parkir untuk mobil?","Ada berapa tempat parkir mobil?","tempat parkir mobil"],
+     "responses": ["Tempat parkir mobil pada politeknik Harapan Bersama memiliki 4 parkir mobil. terletak pada sebelah utara cafe , sebelah utara gedung B, sebelah selatan gedung A, dan sebelah utara gedung D"],
+     "context": [""]
+    },
+
+    {"tag": "in",
+     "patterns": ["Dimana tempat masuk?","bagaimana cara masuk parkir","masuk parkir ","tempat masuk" ],
+     "responses": ["pintu masuk motor yaitu melalui pintu samping gedung B dan untuk pintu masuk mobil pada gerbang pintu depan yang diantara gedung A dan gedung B "],
+     "context": [""]
+    },
+
+    {"tag": "out",
+     "patterns": ["Dimana tempat keluar?","bagaimana cara keluar parkir","keluar parkir","tempat keluar" ],
+     "responses": ["pintu keluar motor yaitu melalui gedung belakang gedung C lalu kebelakang gedung A dan untuk pintu keluar mobil pada gerbang pintu saat masuk mobil (diantara gedung A dan gedung B)"],
+     "context": [""]
+    },
+
+    {"tag": "kerja_deteksi",
+     "patterns": ["Gimana kerja deteksi?", "Bagaimana kerja deteksi?", "kerja deteksi" ],
+     "responses": ["Kamera akan memindai plat nomor kendaraan membuat data parkir secara otomatis"],
+     "context": [""]
+    },
+
+    {"tag": "kapasitas_motor",
+     "patterns": ["ada berapa jumlah slot parkir motor?", "Berapa jumlah slot yang tersedia?", "jumlah keseluruhan slot parkir motor" ],
+     "responses": ["sebelah timur asrama mampu menampung 150 motor, sebelah barat gedung C mampu menampung 100 motor, sebelah timur gedung C mampu menampung 100 motor, sebelah selatan gedung D mampu menampung 150 motor"],
+     "context": [""]
+    },
+
+    {"tag": "kapasitas_mobil",
+     "patterns": ["ada berapa jumlah slot parkir mobil?", "Berapa jumlah slot mobil yang tersedia?", "jumlah keseluruhan slot parkir mobil" ],
+     "responses": ["sebelah selatan gedung A mampu menampung 10 mobil, sebelah utara gedung B mampu menampung 10 mobil, sebelah utara gedung D mampu menampung 5 mobil, sebelah utara cafe mampu menampung 15 mobil"],
+     "context": [""]
+    }
+]
+}
